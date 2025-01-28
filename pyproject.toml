@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepseek-python-client"
+version = "1.0.0"
+description = "Enterprise DeepSeek API Client"
+authors = [{name = "Roman Muflikhunov", email = "info@hubpro.us"}]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

@@ -1,0 +1,29 @@
+deepseek-python-client/
+├── src/
+│   └── deepseek/
+│       ├── core/
+│       │   ├── __init__.py
+│       │   ├── exceptions.py    # Exception classes
+│       │   ├── config.py        # ClientConfig
+│       │   └── logging.py       # ClientLogger
+│       ├── api/
+│       │   ├── __init__.py
+│       │   ├── transport.py     # APITransport
+│       │   └── services/        # Business logic
+│       │       ├── __init__.py
+│       │       └── chat.py      # ChatCompletionService
+│       └── client.py            # Main Facade (DeepSeekClient)
+├── tests/
+│   ├── unit/
+│   │   ├── test_client.py
+│   │   ├── test_config.py
+│   │   └── test_services.py
+│   └── integration/
+│       └── test_api_integration.py
+├── examples/
+│   └── basic_usage.py
+├── docs/
+│   └── api-reference.md
+├── pyproject.toml
+├── requirements.txt
+└── README.md
