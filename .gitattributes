@@ -1,0 +1,9 @@
+*.py linguist-detectable=true
+*.pyc linguist-vendored
+*.pyo linguist-vendored
+*.pyd linguist-vendored
+__pycache__/* linguist-vendored
+tests/* linguist-detectable=true
+src/deepseek/* linguist-detectable=true
+src/deepseek/api/* linguist-detectable=true
+src/deepseek/core/* linguist-detectable=true
